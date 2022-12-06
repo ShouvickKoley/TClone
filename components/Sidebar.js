@@ -29,7 +29,7 @@ export default function Sidebar() {
 
         {/* Button */}
 
-        <button className=" bg-green-400 text-white rounded-full w-56 h-12 font-bold shadow-md hover:brightness-95 text-lg hidden xl:inline">Tweet</button>
+        <button className=" bg-green-400 text-white rounded-full w-56 h-12 font-bold shadow-md hover:brightness-95 text-lg hidden xl:inline">Zweet</button>
 
 
         {/* Mini-Profile */}
