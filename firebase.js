@@ -10,7 +10,7 @@ import { getStorage } from "firebase/storage";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyDfWH5idkWCIP95b4tcZlOe6WZVHjQocbw",
+  apiKey:process.env.FIREBASE_API_KEY,
   authDomain: "zwitter-v1-aca1e.firebaseapp.com",
   projectId: "zwitter-v1-aca1e",
   storageBucket: "zwitter-v1-aca1e.appspot.com",
